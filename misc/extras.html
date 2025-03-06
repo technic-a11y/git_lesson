@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Extras</title>
+    </head>
+    <body>
+    <h1>  Extras</h1> 
+    
+    <p>let's try creating a link to images and links HTML through extra html</p>
+
+<p> This page is about Miscellaneous HTML but you maybe interested in  <a href="images.html">images</a> or <a href="images.html "> links</a></p>
+
+    <!-- The link shows failed success, this is because these links are existing in parent directory but not in the relative folder, and the problem 
+     can be solved by using root directory tag ../ -->
+
+     <p> This page is about Miscellaneous HTML but you maybe interested in  <a href="../images.html">images</a> or <a href="../links.html "> links</a></p>
+
+     <!-- root relative links use root/ attribute to relate to whole website and are explicit in nature but not more then absolute ones. -->
+    
+     <p> This page contains root relative links and are represented as <a href="/">homepage</a></p>
+
+     <h2>Character Sets</h2>
+
+<p>You can use UTF-8 to count in Turkish:</p>
+
+<ol>
+  <li>bir</li>
+  <li>iki</li>
+  <li>üç</li>
+  <li>dört</li>
+  <li>beş</li>
+</ol>
+<h2> HTML Entities</h2>
+<p>There are three reserved characters in HTML: &lt; &gt; and &amp; . You should always
+ use html entities [&] for these three characters.</p>
+
+ <p>If you &rsquo;re into &ldquo;web typography, &rdquo; you&rsquo;ll also find yourself using curly quotes quite a bit.</p>
+    </body>
+</html> 
